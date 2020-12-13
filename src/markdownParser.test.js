@@ -38,6 +38,4 @@ describe('Markdown Headers', () => {
     const actual = markdownParser(' # Invalid') 
     expect(actual).to.deep.equal(expected)
   })
-
-
 })
