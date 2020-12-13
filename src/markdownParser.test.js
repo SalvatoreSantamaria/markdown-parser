@@ -22,8 +22,8 @@ describe('Markdown Headers', () => {
   })
 
   it("returns the input for basic invalid cases where input is '####### Invalid' ", () => {
-    const expected = '########Invalid'
-    const actual = markdownParser('########Invalid') 
+    const expected = '######## Invalid'
+    const actual = markdownParser('######## Invalid') 
     expect(actual).to.deep.equal(expected)
   })
 
